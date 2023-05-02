@@ -1,0 +1,87 @@
+  @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Sigmar&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #e5c006; */
+}
+.content{
+    display: flex;
+    align-content: center;
+    position:relative;
+    margin: 7rem 0rem 30rem 0;
+    /* background-color: #e5c006; */
+    font-size: 1.5rem;
+    overflow: hidden;
+  }
+  h2{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 2rem;
+    color: rgb(144, 210, 22);
+    font-family: 'Delicious Handrawn', cursive;
+font-family: 'Sigmar', cursive;
+text-shadow: 4px 4px  black;
+  }
+  #text {
+    background-color: rgb(230, 122, 22);
+    color: white;
+    padding: 20px;
+    height: 6rem;
+    font-size: 1.3rem;
+    text-align: center;
+    border:1px solid rgb(40, 32, 32);
+  }
+  
+  #game {
+    max-width: 600px;
+    max-height: 600px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    /* height: 7rem; */
+  }
+  
+  #controls {
+    border: 1px black solid;
+    padding: 5px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #stats {
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #monsterStats {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F484911084856967041%2F%3Famp_client_id%3DCLIENT_ID%2528_%2529%26mweb_unauth_id%3D%26simplified%3Dtrue&psig=AOvVaw15uofdj5gsEaZOQ6eOzdeG&ust=1683065342014000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCRzZCR1f4CFQAAAAAdAAAAABAE");
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
