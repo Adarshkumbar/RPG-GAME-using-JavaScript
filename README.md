@@ -2,4 +2,4 @@
  A simple rpg game in which you can buy weapon,health and kill various monsters
 .There is also Mystery short game to win bonus ingame gold.
 <br>
-[a link](https://adarshkumbar.github.io/RPG-GAME-using-JavaScript/)
+[Website link ](https://adarshkumbar.github.io/RPG-GAME-using-JavaScript/)
